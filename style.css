@@ -1,0 +1,135 @@
+*{margin: 0;
+padding: 0;
+}
+h1{
+    font-family:  "Sacramento", cursive; 
+    color:#112D4E;
+}
+h2, h3, h4{
+    font-family: "Hedvig Letters Serif", serif;
+}
+
+p,li{
+    font-family:"open sans", sans-serif; 
+}
+
+
+hr{
+    border: dotted; 
+    border-color: #112D4E;
+    border-width: 6px;
+    width: 40%;
+    border-bottom: none;
+    margin: 80px auto;
+}
+img{
+    border-style: dotted;
+    border-color:aliceblue;
+    border-width: 5px;
+    padding: 10px;
+}
+
+#home{
+    background-color: #F9F7F7;
+    color:#112D4E;
+}
+
+#aboutme{
+    background-color: #3F72AF;
+    color:beige
+}
+
+
+
+#Experience{
+    background-color:#DBE2EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#112D4E;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows:1fr 1fr;
+    text-align: left;
+    margin-top: 40px; 
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.whatido h2{
+    padding-top: 20px;
+    text-align: center;
+}
+.whatido img{
+    max-width: 100%;
+    object-fit:cover;
+}
+li{
+    list-style: none;
+}
+
+@media (max-width:600px){
+    .whatido{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1 0;
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 0;
+        text-align: left;
+        padding-right:50px;
+
+    }
+    .children{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 0;
+
+    }
+}
+
+#Portifolio{
+    background-color: #112D4E;
+    color:beige;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.works-pic{
+    max-width: 100%;  
+}
+@media (max-width:1200px) {
+    .projects{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+#contactme{
+    background-color:#F9F7F7;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#footer{
+    background-color: #DBE2EF;
+    color:#112D4E;
+}
+.last{
+    align-items: center;
+}
