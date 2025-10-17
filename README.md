@@ -1,2 +1,2 @@
 # This-is-Hui
-My website created by using CSS and HTML
+My course project created by using CSS and HTML
